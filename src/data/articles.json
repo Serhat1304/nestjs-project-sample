@@ -1,0 +1,58 @@
+[
+  {
+    "articleName": "Montre Rolex",
+    "description": "Une montre de luxe suisse",
+    "price": 9999.99
+  },
+  {
+    "articleName": "iPhone 13 Pro",
+    "description": "Un smartphone haut de gamme d'Apple",
+    "price": 1299.99
+  },
+  {
+    "articleName": "Chaussures Nike Air Max",
+    "description": "Des baskets confortables pour le sport",
+    "price": 149.99
+  },
+  {
+    "articleName": "Ordinateur portable MacBook Pro",
+    "description": "Un ordinateur portable puissant pour les professionnels",
+    "price": 1999.99
+  },
+  {
+    "articleName": "TV Samsung QLED 4K",
+    "description": "Une télévision intelligente avec une qualité d'image exceptionnelle",
+    "price": 1799.99
+  },
+  {
+    "articleName": "Appareil photo Canon EOS R5",
+    "description": "Un appareil photo professionnel avec une résolution élevée",
+    "price": 3899.99
+  },
+  {
+    "articleName": "Casque audio Sony WH-1000XM4",
+    "description": "Un casque sans fil avec une annulation de bruit avancée",
+    "price": 349.99
+  },
+  {
+    "articleName": "Livre 'Le Seigneur des Anneaux'",
+    "description": "Un roman épique de fantasy de J.R.R. Tolkien",
+    "price": 29.99
+  },
+  {
+    "articleName": "Tapis de yoga",
+    "description": "Un tapis de yoga antidérapant pour la pratique quotidienne",
+    "price": 49.99
+  },
+  {
+    "articleName": "Enceinte Bluetooth JBL Charge 5",
+    "description": "Une enceinte portable résistante à l'eau avec une autonomie longue durée",
+    "price": 179.99
+  },
+  {
+    "articleName": "Sac Mickael Kors",
+    "description": "Un sac un peu cher aussi mais ça va",
+    "price": 299.99,
+    "createdAt": "2024-02-23T09:59:18.143Z"
+  }
+]
