@@ -11,20 +11,4 @@ export class AppController {
     private configService: ConfigurationService,
     private articleService: ArticleService,
   ) {}
-
-  @Get('number/:number')
-  addTenToGivenNumber(@Param('number', ParseIntPipe) number: number): number {
-    return number + 10;
-  }
-
-  @Get('environment')
-  getEnvironment(): string {
-    return this.configService.getValue('environment');
-  }
-
-  @Get('article/:articleName')
-  getUser(@Param('articleName') articleName: string): Article {
-    return this.articleService.getArticle(articleName);
-  }
-
 }
