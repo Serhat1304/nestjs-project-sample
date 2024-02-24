@@ -1,19 +1,20 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { Article } from './model/article';
 import * as fs from 'fs'
+import { DateUtils } from 'src/utils/date.utils';
 
 @Injectable()
 export class ArticleService {
   private readonly articles: Article[];
   private readonly jsonFilePath: string = "C:/Users/serha/Desktop/Alternance/Efrei/Semestre-2/NestJS/nestjs-project-sample/src/data/articles.json";
 
-  constructor() {
+  constructor(public dateUtils: DateUtils) {
     this.articles = this.loadFromJson(this.jsonFilePath);
 
   }
 
   createArticle(article: Article): Article {
-    article.createdAt = new Date();
+    article.createdAt = this.dateUtils.formatDate(new Date());
     this.articles.push(article);
     this.saveToJson();
     return article;

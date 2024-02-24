@@ -1,4 +1,4 @@
-import { Controller, Get, Param, Post, Body } from '@nestjs/common';
+import { Controller, Get, Param, Post, Body, Delete } from '@nestjs/common';
 import { ArticleService } from './article.service';
 import { Article } from './model/article';
 
@@ -12,7 +12,7 @@ export class ArticleController {
   }
 
   @Get(':articleName')
-  getArticle(@Param('articleName') articleName: string): Article {
+  getArticle(@Param('articleName')articleName: string): Article {
     return this.articleService.getArticle(articleName);
   }
 

@@ -54,5 +54,35 @@
     "description": "Un sac un peu cher aussi mais ça va",
     "price": 299.99,
     "createdAt": "2024-02-23T09:59:18.143Z"
+  },
+  {
+    "articleName": "PS5",
+    "description": "Toute neuve",
+    "price": 500.99,
+    "createdAt": "2024-02-23T10:59:55.727Z"
+  },
+  {
+    "articleName": "Nike Air Force 1",
+    "description": "La classique",
+    "price": 120.99,
+    "createdAt": "24-02-2024"
+  },
+  {
+    "articleName": "Nike Air Force 1",
+    "description": "La classique",
+    "price": 120.99,
+    "createdAt": "24-02-2024-function getHours() { [native code] }"
+  },
+  {
+    "articleName": "Nike Air Force 1",
+    "description": "La classique",
+    "price": 120.99,
+    "createdAt": "24-02-2024-15"
+  },
+  {
+    "articleName": "Nike Air Force 1",
+    "description": "La classique",
+    "price": 120.99,
+    "createdAt": "24-02-2024 à 15:51"
   }
 ]
